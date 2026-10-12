@@ -208,9 +208,9 @@
 /* Notificación visual para acciones realizadas por el usuario */
 .notificacion {
   position: fixed;
-  top: 20px;
+  top: 80px;
   right: 20px;
-  z-index: 1000;
+  z-index: 3000;
   max-width: 360px;
   padding: 14px 18px;
   border-radius: 8px;
@@ -257,9 +257,9 @@
 
 @media (max-width: 600px) {
   .notificacion {
+    top: 75px;
     left: 15px;
     right: 15px;
-    top: 15px;
     max-width: none;
   }
 }
@@ -285,4 +285,26 @@
 
 .btn-reintentar:hover {
   background: #bb2d3b;
+}
+
+/* Fondo oscuro del modal de confirmación */
+.modal-confirmacion-fondo {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* Ventana del modal controlado por React */
+.modal-confirmacion {
+  width: 100%;
+  max-width: 500px;
+  padding: 28px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
 }

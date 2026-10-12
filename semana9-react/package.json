@@ -1,5 +1,5 @@
 {
-  "name": "semana8-react",
+  "name": "semana9-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,6 +12,7 @@
     "deploy": "gh-pages -d dist -r https://github.com/MiliDuoc/PFY2201-Semana8-Portal-Gamer.git"
   },
   "dependencies": {
+    "bootstrap": "^5.3.8",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
